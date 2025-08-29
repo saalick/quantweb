@@ -48,11 +48,8 @@ const Footer = () => {
               <img 
                 src="/quantel-logo.png" 
                 alt="Quantel Logo" 
-                className="h-8 opacity-90"
+                className="h-12 brightness-110 contrast-125"
               />
-              <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Quantel
-              </h3>
             </div>
             <p className="text-muted-foreground max-w-md">
               Institutional-grade TradingView indicators that transform intuition into algorithms and strategies into systematic processes.
