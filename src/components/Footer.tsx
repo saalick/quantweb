@@ -48,7 +48,7 @@ const Footer = () => {
               <img 
                 src="/quantel-logo.png" 
                 alt="Quantel Logo" 
-                className="h-16 md:h-20 brightness-110 contrast-125"
+                className="h-24 md:h-28 brightness-110 contrast-125"
               />
             </div>
             <p className="text-muted-foreground max-w-md">

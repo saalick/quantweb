@@ -34,7 +34,7 @@ const Hero = () => {
           <img 
             src="/quantel-logo.png" 
             alt="Quantel Logo" 
-            className="h-16 md:h-20 mx-auto mb-6 opacity-90"
+            className="h-24 md:h-32 lg:h-36 mx-auto mb-6 opacity-90"
           />
         </div>
         
