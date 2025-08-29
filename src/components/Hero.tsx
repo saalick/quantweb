@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, TrendingUp, BarChart3 } from "lucide-react";
 import heroBackground from "@/assets/hero-bg.jpg";
-import quantelLogo from "@/assets/quantel-logo.png";
 
 const Hero = () => {
   const scrollToFeatures = () => {
@@ -33,7 +32,7 @@ const Hero = () => {
       <div className="relative z-10 text-center px-6 max-w-6xl mx-auto">
         <div className="mb-8">
           <img 
-            src={quantelLogo} 
+            src="/quantel-logo.png" 
             alt="Quantel Logo" 
             className="h-16 md:h-20 mx-auto mb-6 opacity-90"
           />

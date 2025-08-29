@@ -1,5 +1,4 @@
 import { ExternalLink, Twitter, MessageCircle, Youtube, Linkedin } from "lucide-react";
-import quantelLogo from "@/assets/quantel-logo.png";
 
 const Footer = () => {
   const socialLinks = [
@@ -47,7 +46,7 @@ const Footer = () => {
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
               <img 
-                src={quantelLogo} 
+                src="/quantel-logo.png" 
                 alt="Quantel Logo" 
                 className="h-8 opacity-90"
               />
