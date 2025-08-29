@@ -1,4 +1,5 @@
 import { ExternalLink, Twitter, MessageCircle, Youtube, Linkedin } from "lucide-react";
+import quantelLogo from "@/assets/quantel-logo.png";
 
 const Footer = () => {
   const socialLinks = [
@@ -44,9 +45,16 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div className="lg:col-span-2 space-y-4">
-            <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Quantel
-            </h3>
+            <div className="flex items-center gap-3">
+              <img 
+                src={quantelLogo} 
+                alt="Quantel Logo" 
+                className="h-8 opacity-90"
+              />
+              <h3 className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                Quantel
+              </h3>
+            </div>
             <p className="text-muted-foreground max-w-md">
               Institutional-grade TradingView indicators that transform intuition into algorithms and strategies into systematic processes.
             </p>
