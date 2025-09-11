@@ -1,16 +1,15 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { X, Timer, Zap, Copy } from "lucide-react";
+import { X, Zap, Copy } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const DiscountPopup = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(15 * 60); // 15 minutes in seconds
   const [isCopied, setIsCopied] = useState(false);
   const { toast } = useToast();
   
-  const discountCode = "SAVE20NOW";
+  const discountCode = "SAVE10NOW";
 
   useEffect(() => {
     // Show popup after 10 seconds
@@ -20,28 +19,6 @@ const DiscountPopup = () => {
 
     return () => clearTimeout(timer);
   }, []);
-
-  useEffect(() => {
-    if (!isVisible || timeLeft <= 0) return;
-
-    const timer = setInterval(() => {
-      setTimeLeft((prev) => {
-        if (prev <= 1) {
-          setIsVisible(false);
-          return 0;
-        }
-        return prev - 1;
-      });
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, [isVisible, timeLeft]);
-
-  const formatTime = (seconds: number) => {
-    const mins = Math.floor(seconds / 60);
-    const secs = seconds % 60;
-    return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
-  };
 
   const copyCode = () => {
     navigator.clipboard.writeText(discountCode);
@@ -78,21 +55,19 @@ const DiscountPopup = () => {
           <X className="h-4 w-4" />
         </Button>
 
-        {/* Header with timer */}
+        {/* Header */}
         <div className="text-center mb-6">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-destructive/10 border border-destructive/20 mb-3">
-            <Timer className="w-4 h-4 text-destructive animate-pulse" />
-            <span className="text-destructive font-bold text-sm">
-              {formatTime(timeLeft)}
-            </span>
-          </div>
-          
           <h3 className="text-2xl font-bold text-foreground mb-2">
             🎯 Limited Time Offer!
           </h3>
-          <p className="text-muted-foreground">
-            Get <span className="text-primary font-bold">20% OFF</span> your first month of Quantel
+          <p className="text-muted-foreground mb-3">
+            Get <span className="text-primary font-bold">10% OFF</span> your first month of Quantel
           </p>
+          <div className="p-3 bg-destructive/5 border border-destructive/20 rounded-lg">
+            <p className="text-sm text-destructive font-semibold">
+              ⚠️ Our pricing is set to increase in the next 5 days. Hurry up!
+            </p>
+          </div>
         </div>
 
         {/* Discount code */}
@@ -112,7 +87,7 @@ const DiscountPopup = () => {
             </Button>
           </div>
           <p className="text-xs text-muted-foreground mt-2 text-center">
-            Use this code at checkout to save $19.80
+            Use this code at checkout to save $9.90
           </p>
         </div>
 
@@ -124,7 +99,7 @@ const DiscountPopup = () => {
             onClick={handleClaimOffer}
             className="w-full animate-pulse-glow"
           >
-            Claim 20% Discount Now
+            Claim 10% Discount Now
           </Button>
           
           <Button 
@@ -139,7 +114,7 @@ const DiscountPopup = () => {
 
         {/* Urgency text */}
         <p className="text-xs text-center text-muted-foreground mt-4">
-          ⚡ This offer expires when the timer hits zero!
+          ⚡ Limited time offer - pricing increases in 5 days!
         </p>
       </Card>
     </div>
