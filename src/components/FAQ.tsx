@@ -9,31 +9,23 @@ const FAQ = () => {
   const faqs = [
     {
       question: "What is Quantel?",
-      answer: "Quantel is an AI-powered trading technology platform that provides institutional-grade TradingView indicators. We combine ICT (Inner Circle Trader), SMC (Smart Money Concepts), and advanced quantitative analysis to create systematic trading tools that eliminate emotion and guesswork from your trading decisions."
+      answer: "Built by our in-house quantitative team, Quantel provides proven-edge strategies with precise setups, plus tools highlighting liquidity, FVGs, and key market concepts to enhance your trading."
     },
     {
-      question: "How do I access the indicators after purchase?",
-      answer: "After purchasing through our Whop checkout, you'll receive immediate access to our Discord community where all indicators are shared. You'll get download links, installation guides, and full documentation for each indicator. Setup typically takes less than 5 minutes."
+      question: "Are Quantel indicators reliable?",
+      answer: "Yes. All indicators are built by our quantitative programmers, based on back and forward-tested models with zero repainting. They deliver objective insights without guesswork or delays."
     },
     {
-      question: "Do I need coding or advanced skills?",
-      answer: "Not at all! Our indicators are designed for traders of all experience levels. They come pre-configured and ready to use on TradingView. We provide clear documentation, video tutorials, and community support to help you get started immediately."
+      question: "What's the difference between strategies and tools?",
+      answer: "Strategy-based indicators provide complete trade setups with entry, stop-loss, and take-profit signals. Tools highlight market structure concepts like liquidity, FVGs, levels, and confirmations to support your own system."
     },
     {
-      question: "Do you offer mentorship?",
-      answer: "While we don't offer one-on-one mentorship, our Discord community provides extensive educational resources, strategy discussions, and peer support. Our team regularly shares market analysis, indicator updates, and trading insights to help you improve your systematic approach."
+      question: "Do I need other software, how do I get access, and can I receive alerts to my phone?",
+      answer: "Quantel runs fully on TradingView. After purchase, link your TradingView username to access indicators in your Invite-Only Scripts tab. You can also set alerts in the TradingView mobile app to get signal notifications straight to your phone."
     },
     {
-      question: "Can I use the indicators on multiple devices?",
-      answer: "Yes! Your subscription includes multi-device access. You can use the indicators on any device that supports TradingView - including desktop, mobile, and tablet. Your indicators will sync across all your devices through your TradingView account."
-    },
-    {
-      question: "What markets do the indicators work on?",
-      answer: "Our indicators are designed for cross-market utility and work on forex, indices, cryptocurrency, and equities. The underlying ICT/SMC principles and quantitative models apply universally across all liquid financial markets."
-    },
-    {
-      question: "How often are the indicators updated?",
-      answer: "We provide constant evolution with regular updates and refinements. As markets change and we gather community feedback, we continuously improve our algorithms. All updates are included in your subscription at no additional cost."
+      question: "How do your strategy-based indicators work?",
+      answer: "Our strategies are built on trading models with a proven statistical edge. Some show a 'setup forming' alert before the full entry, stop-loss, and take-profit, while others give the full signal immediately."
     }
   ];
 

@@ -19,10 +19,10 @@ const Pricing = () => {
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Simple, Transparent <span className="text-primary">Pricing</span>
+            Stop Guessing & Hoping. Start Trading with <span className="text-primary">Proven Strategies</span>.
           </h2>
           <p className="text-xl text-muted-foreground">
-            One subscription gives you access to our complete institutional indicator suite
+            Quantel combines profitable strategy-based indicators with advanced trading tools — so you can trade smarter, faster, and with confidence.
           </p>
         </div>
 
@@ -72,7 +72,7 @@ const Pricing = () => {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                Join Quantel Today
+                Start Trading Smarter
                 <ArrowRight className="ml-2" />
               </a>
             </Button>

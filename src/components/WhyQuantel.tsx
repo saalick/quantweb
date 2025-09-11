@@ -4,23 +4,18 @@ const WhyQuantel = () => {
   const differentiators = [
     {
       icon: Building2,
-      title: "Institutional-Grade Tools",
-      description: "Built on ICT/SMC methodologies combined with advanced quantitative analysis for professional-level trading precision"
+      title: "Strategy-Based Indicators with a Proven Edge",
+      description: "Every model is developed and tested by our in-house quantitative team — backtested, forward-tested, and built to deliver consistency."
     },
     {
       icon: RefreshCw,
-      title: "Constant Evolution",
-      description: "Regular updates and refinements based on market changes and community feedback to maintain cutting-edge performance"
+      title: "Advanced Tools for Precision",
+      description: "Identify liquidity sweeps, FVGs, and market reactions instantly, without manually drawing levels."
     },
     {
       icon: Globe,
-      title: "Cross-Market Utility",
-      description: "Works seamlessly across forex, indices, cryptocurrency, and equities for complete market versatility"
-    },
-    {
-      icon: BarChart3,
-      title: "Data-Driven Precision",
-      description: "Eliminates emotion and guesswork with systematic, algorithmic approaches to market analysis and trade execution"
+      title: "No Extra Software Needed",
+      description: "Runs entirely on TradingView. Just link your account and start trading with institutional-grade signals."
     }
   ];
 
@@ -29,14 +24,11 @@ const WhyQuantel = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Trade with <span className="text-primary">Structure</span>. Trade with <span className="text-accent">Confidence</span>.
+            Why <span className="text-primary">Quantel</span> Works
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            What sets Quantel apart from the countless other trading tools in the market
-          </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8">
           {differentiators.map((item, index) => (
             <div 
               key={index}

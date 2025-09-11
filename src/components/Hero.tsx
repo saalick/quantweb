@@ -39,15 +39,12 @@ const Hero = () => {
         </div>
         
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 bg-gradient-to-r from-foreground via-primary to-accent bg-clip-text text-transparent leading-tight">
-          Systematize Your Trading
-          <span className="block text-primary">with Quantel</span>
+          Trade with Precision,
+          <span className="block text-primary">Not Guesswork</span>
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-4xl mx-auto leading-relaxed">
-          Institutional-grade TradingView Indicators built on{" "}
-          <span className="text-primary font-semibold">ICT</span>,{" "}
-          <span className="text-primary font-semibold">SMC</span>, and{" "}
-          <span className="text-accent font-semibold">Quantitative Models</span>.
+          Quantel delivers TradingView indicators built on profitable strategies and quantitative models, plus tools that automate what advanced traders usually identify manually.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -62,7 +59,7 @@ const Hero = () => {
               target="_blank" 
               rel="noopener noreferrer"
             >
-              Start Trading Smarter – $29.99/month
+              Start Trading Smarter
               <ArrowRight className="ml-2" />
             </a>
           </Button>
@@ -77,7 +74,7 @@ const Hero = () => {
         </div>
 
         <div className="mt-12 text-sm text-muted-foreground">
-          Join <span className="text-primary font-semibold">100+ traders</span> already systematizing their trading
+          Join <span className="text-primary font-semibold">100+ traders</span> already systematizing their trading with Quantel
         </div>
       </div>
 

@@ -45,10 +45,10 @@ const ProblemSolution = () => {
           <div className="space-y-8">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Are You Still <span className="text-destructive">Gambling</span> in the Markets?
+                ❌ Still <span className="text-destructive">Gambling</span> in the Markets?
               </h2>
               <p className="text-muted-foreground text-lg">
-                Most traders struggle with these common challenges that prevent consistent profitability.
+                Most indicators lag, repaint, or rely on random signals. That leaves you guessing, chasing, and losing.
               </p>
             </div>
 
@@ -72,10 +72,10 @@ const ProblemSolution = () => {
           <div className="space-y-8">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-                Transform Into a <span className="text-primary">Systematic</span> Trader
+                ✅ Turn Into a <span className="text-primary">Systematic</span> Trader
               </h2>
               <p className="text-muted-foreground text-lg">
-                Quantel provides the institutional tools and structure you need for consistent success.
+                Quantel provides proven-edge strategy indicators with built-in entries, stop-loss, and take-profit levels, plus tools for liquidity, FVGs, and confirmations — automating the analysis pros usually do by hand.
               </p>
             </div>
 
