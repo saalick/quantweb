@@ -7,6 +7,7 @@ import About from "@/components/About";
 import FAQ from "@/components/FAQ";
 import Affiliate from "@/components/Affiliate";
 import Footer from "@/components/Footer";
+import DiscountPopup from "@/components/DiscountPopup";
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
       <FAQ />
       <Affiliate />
       <Footer />
+      <DiscountPopup />
     </div>
   );
 };

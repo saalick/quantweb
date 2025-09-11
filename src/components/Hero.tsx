@@ -55,7 +55,7 @@ const Hero = () => {
             className="animate-pulse-glow"
           >
             <a 
-              href="https://whop.com/quantel/institutional-indicator-suite/" 
+              href="https://whop.com/quantel-io/quantel-io-90/" 
               target="_blank" 
               rel="noopener noreferrer"
             >

@@ -39,8 +39,7 @@ const Pricing = () => {
               
               <div className="space-y-2">
                 <div className="flex items-baseline justify-center gap-2">
-                  <span className="text-6xl md:text-7xl font-bold text-foreground">$29</span>
-                  <span className="text-2xl text-muted-foreground">.99</span>
+                  <span className="text-6xl md:text-7xl font-bold text-foreground">$99</span>
                   <span className="text-lg text-muted-foreground">/month</span>
                 </div>
                 <p className="text-muted-foreground">
@@ -68,7 +67,7 @@ const Pricing = () => {
               className="w-full animate-pulse-glow"
             >
               <a 
-                href="https://whop.com/quantel/institutional-indicator-suite/" 
+                href="https://whop.com/quantel-io/quantel-io-90/" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
