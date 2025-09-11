@@ -58,14 +58,14 @@ const DiscountPopup = () => {
         {/* Header */}
         <div className="text-center mb-6">
           <h3 className="text-2xl font-bold text-foreground mb-2">
-            🎯 Limited Time Offer!
+            Limited Time Offer!
           </h3>
           <p className="text-muted-foreground mb-3">
             Get <span className="text-primary font-bold">10% OFF</span> your first month of Quantel
           </p>
           <div className="p-3 bg-destructive/5 border border-destructive/20 rounded-lg">
             <p className="text-sm text-destructive font-semibold">
-              ⚠️ Our pricing is set to increase in the next 5 days. Hurry up!
+              Our pricing is set to increase in the next 5 days. Hurry up!
             </p>
           </div>
         </div>
@@ -114,7 +114,7 @@ const DiscountPopup = () => {
 
         {/* Urgency text */}
         <p className="text-xs text-center text-muted-foreground mt-4">
-          ⚡ Limited time offer - pricing increases in 5 days!
+          Limited time offer - pricing increases in 5 days!
         </p>
       </Card>
     </div>
