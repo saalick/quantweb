@@ -5,12 +5,12 @@ const Footer = () => {
     {
       name: "X (formerly Twitter)",
       icon: Twitter,
-      href: "https://twitter.com/QuantelX"
+      href: "https://x.com/QuantelX"
     },
     {
       name: "Instagram",
       icon: Instagram,
-      href: "#"
+      href: "https://instagram.com/quantel.io"
     },
     {
       name: "YouTube",
@@ -20,7 +20,7 @@ const Footer = () => {
     {
       name: "LinkedIn",
       icon: Linkedin,
-      href: "#"
+      href: "https://www.linkedin.com/company/quantel-io/"
     }
   ];
 
