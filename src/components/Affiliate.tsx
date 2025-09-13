@@ -74,7 +74,7 @@ const Affiliate = () => {
                   Start Earning Today
                 </h3>
                 <p className="text-muted-foreground">
-                  Turn your trading knowledge into an additional income stream. No application fees, no hassle — just your link and recurring commissions.
+                  Turn your trading knowledge into an additional income stream.
                 </p>
               </div>
 
@@ -87,9 +87,6 @@ const Affiliate = () => {
                 <ArrowRight className="ml-2" />
               </Button>
 
-              <p className="text-xs text-muted-foreground">
-                No application fees, no hassle — just your link and recurring commissions.
-              </p>
             </div>
           </Card>
         </div>

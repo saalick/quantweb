@@ -108,7 +108,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-primary/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            © 2024 Quantel. All rights reserved.
+            © 2025 Quantel. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm">
             Made with precision for systematic traders worldwide
