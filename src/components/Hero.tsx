@@ -74,7 +74,7 @@ const Hero = () => {
         </div>
 
         <div className="mt-12 text-sm text-muted-foreground">
-          Join 100+ traders already systematizing their trading with Quantel
+          Formerly invite-only, now publicly accessible to all traders.
         </div>
       </div>
 
