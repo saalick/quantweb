@@ -11,7 +11,7 @@ const ProductSuite = () => {
     {
       icon: Activity,
       title: "15min Opening Range Breakout",
-      description: "Captures opening range breakouts during the first 15 minutes of trading."
+      description: "Trades momentum breakouts from the high or low of the first 15 minutes of price action, capturing early-move opportunities."
     },
     {
       icon: Target,
@@ -21,7 +21,7 @@ const ProductSuite = () => {
     {
       icon: RotateCw,
       title: "Quantel Swing Pro",
-      description: "Captures swing highs/lows for statistically favorable entries."
+      description: "Enters near swing highs/lows to ride short to medium-term trends for big overnight futures gains."
     }
   ];
 
