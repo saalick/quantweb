@@ -74,7 +74,7 @@ const Hero = () => {
         </div>
 
         <div className="mt-12 text-sm text-muted-foreground">
-          Join <span className="text-primary font-semibold">100+ traders</span> already systematizing their trading with Quantel
+          Join 100+ traders already systematizing their trading with Quantel
         </div>
       </div>
 
