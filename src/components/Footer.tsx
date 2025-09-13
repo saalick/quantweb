@@ -1,10 +1,10 @@
-import { Twitter, Instagram, Youtube, Linkedin } from "lucide-react";
+import { X, Instagram, Youtube, Linkedin } from "lucide-react";
 
 const Footer = () => {
   const socialLinks = [
     {
       name: "X (formerly Twitter)",
-      icon: Twitter,
+      icon: X,
       href: "https://twitter.com/QuantelX"
     },
     {
