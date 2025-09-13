@@ -7,17 +7,17 @@ const Affiliate = () => {
     {
       icon: DollarSign,
       title: "20% Commission",
-      description: "Earn 20% commission on every trader you refer to our platform"
+      description: "Earn 20% on every trader you refer."
     },
     {
       icon: Users,
       title: "Growing Community",
-      description: "Join our expanding network of successful trading affiliates"
+      description: "Be part of a fast-expanding network of trading affiliates."
     },
     {
       icon: TrendingUp,
       title: "Recurring Income",
-      description: "Build passive income as your referrals continue their subscriptions"
+      description: "Keep earning as long as your referrals stay subscribed."
     }
   ];
 
@@ -29,13 +29,14 @@ const Affiliate = () => {
             Earn While You <span className="text-accent">Trade</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Join the Quantel Affiliate Program and build additional income streams while helping other traders systematize their approach
+            Join the Quantel Affiliate Program and build additional income streams while helping other traders systematize their approach.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <div className="space-y-6">
+            <div className="space-y-4 mb-8">
+              <h3 className="text-2xl font-bold text-foreground mb-4">Why Join?</h3>
               {benefits.map((benefit, index) => (
                 <div 
                   key={index}
@@ -43,7 +44,7 @@ const Affiliate = () => {
                 >
                   <benefit.icon className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-semibold text-foreground mb-2">{benefit.title}</h3>
+                    <h4 className="font-semibold text-foreground mb-2">{benefit.title}</h4>
                     <p className="text-muted-foreground text-sm">{benefit.description}</p>
                   </div>
                 </div>
@@ -51,12 +52,13 @@ const Affiliate = () => {
             </div>
 
             <div className="p-6 rounded-xl bg-gradient-accent/10 border border-accent/20">
-              <h3 className="text-xl font-bold text-foreground mb-2">How It Works</h3>
+              <h3 className="text-xl font-bold text-foreground mb-4">How It Works</h3>
               <ol className="space-y-2 text-muted-foreground">
-                <li>1. Apply to become a Quantel affiliate</li>
-                <li>2. Get your unique referral link and materials</li>
-                <li>3. Share with your network and social media</li>
-                <li>4. Earn 20% commission on every successful referral</li>
+                <li>1. Click "Become an Affiliate" on our site.</li>
+                <li>2. Sign in to your Whop account.</li>
+                <li>3. Scroll to the bottom and click "Become an Affiliate."</li>
+                <li>4. Your unique referral link is automatically copied to your clipboard.</li>
+                <li>5. Share your link and start earning 20% commission on every referral.</li>
               </ol>
             </div>
           </div>
@@ -72,7 +74,7 @@ const Affiliate = () => {
                   Start Earning Today
                 </h3>
                 <p className="text-muted-foreground">
-                  Join our affiliate program and turn your trading success into additional income streams
+                  Turn your trading knowledge into an additional income stream. No application fees, no hassle — just your link and recurring commissions.
                 </p>
               </div>
 
@@ -81,12 +83,12 @@ const Affiliate = () => {
                 variant="accent"
                 className="w-full"
               >
-                Become an Affiliate
+                🔵 Become an Affiliate
                 <ArrowRight className="ml-2" />
               </Button>
 
               <p className="text-xs text-muted-foreground">
-                No application fees. Start earning immediately upon approval.
+                No application fees, no hassle — just your link and recurring commissions.
               </p>
             </div>
           </Card>
