@@ -1,12 +1,7 @@
-import { ExternalLink, Twitter, MessageCircle, Youtube, Linkedin } from "lucide-react";
+import { Twitter, MessageSquare, Youtube, Linkedin, Instagram } from "lucide-react";
 
 const Footer = () => {
   const socialLinks = [
-    {
-      name: "Website",
-      icon: ExternalLink,
-      href: "#"
-    },
     {
       name: "X (Twitter)",
       icon: Twitter,
@@ -14,8 +9,13 @@ const Footer = () => {
     },
     {
       name: "Discord",
-      icon: MessageCircle,
+      icon: MessageSquare,
       href: "https://discord.com/invite/QuantelX"
+    },
+    {
+      name: "Instagram",
+      icon: Instagram,
+      href: "https://instagram.com/quantel.io"
     },
     {
       name: "YouTube",
