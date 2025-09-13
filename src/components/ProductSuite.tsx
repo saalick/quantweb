@@ -10,8 +10,8 @@ const ProductSuite = () => {
     },
     {
       icon: Activity,
-      title: "Quantel Swing Pro",
-      description: "Captures swing highs/lows for statistically favorable entries."
+      title: "15min Opening Range Breakout",
+      description: "Captures opening range breakouts during the first 15 minutes of trading."
     },
     {
       icon: Target,
@@ -20,8 +20,8 @@ const ProductSuite = () => {
     },
     {
       icon: RotateCw,
-      title: "Quantel Range Sweep Reaction Model",
-      description: "Detects sweep-and-reverse moves in range-bound markets."
+      title: "Quantel Swing Pro",
+      description: "Captures swing highs/lows for statistically favorable entries."
     }
   ];
 
