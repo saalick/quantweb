@@ -83,7 +83,7 @@ const Affiliate = () => {
                 variant="accent"
                 className="w-full"
               >
-                🔵 Become an Affiliate
+                 Become an Affiliate
                 <ArrowRight className="ml-2" />
               </Button>
 
