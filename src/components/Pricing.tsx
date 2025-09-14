@@ -77,7 +77,7 @@ const Pricing = () => {
             </Button>
 
             <p className="text-sm text-muted-foreground">
-              Join <span className="text-primary font-semibold">100+ traders</span> already using Quantel to systematize their trading
+              Formerly invite-only, now publicly accessible to all traders.
             </p>
           </div>
         </Card>
