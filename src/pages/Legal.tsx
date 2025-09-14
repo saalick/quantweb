@@ -109,7 +109,7 @@ const Legal = ({ section = "all" }: LegalProps) => {
                   <div>
                     <h3 className="text-lg font-semibold text-foreground mb-2">9. Governing Law</h3>
                     <p className="text-muted-foreground">
-                      These Terms are governed by the laws of [Your Country/State].
+                      These Terms are governed by the laws of United States of America.
                     </p>
                   </div>
                 </div>
