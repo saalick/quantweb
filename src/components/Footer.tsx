@@ -34,8 +34,8 @@ const Footer = () => {
     { name: "Product", href: "#features" },
     { name: "FAQ", href: "#" },
     { name: "Affiliate", href: "#" },
-    { name: "Terms", href: "/legal#terms" },
-    { name: "Privacy", href: "/legal#privacy" }
+    { name: "Terms", href: "/terms" },
+    { name: "Privacy", href: "/privacy" }
   ];
 
   return (
